@@ -1,0 +1,35 @@
+.container{
+    margin: 0 auto;
+    border: 10px solid black;
+    overflow: hidden;
+    width: 300px;
+    margin-top: 100px;
+    
+}
+.display{
+    background-color: white;
+    padding: 1rem;
+    text-align: right;
+    font-size: 2rem;
+    overflow-wrap: anywhere;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+
+}
+.row{
+    display: contents;
+}
+button{
+    background-color: black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+
+    &:hover{
+        background-color: red;
+    }
+}
